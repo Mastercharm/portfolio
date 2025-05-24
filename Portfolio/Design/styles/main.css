@@ -483,6 +483,13 @@ body {
   gap: 2rem;
   margin-bottom: 1.5rem;
 }
+@media screen and (max-width: 767px) {
+  .work-section .work-tab {
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
 .work-section .work-tab_item {
   background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;

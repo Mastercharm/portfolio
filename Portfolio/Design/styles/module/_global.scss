@@ -427,6 +427,11 @@ body {
         display: flex;
         gap: toRem(32);
         margin-bottom: toRem(24);
+            @include responsive(phone) {
+                flex-direction: row;
+                gap: toRem(16);
+                flex-wrap: wrap;
+            }
 
 
         &_item {
