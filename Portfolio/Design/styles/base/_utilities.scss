@@ -1,0 +1,33 @@
+@function toRem($value) {
+    @return calc($value/16) + rem;
+}
+
+.m-b-16{
+    margin-bottom: toRem(16);
+}
+.m-b-32{
+    margin-bottom: toRem(32);
+}
+
+
+.head-flex{
+    display: flex;
+    gap: toRem(12);
+    align-items: center;
+    margin-bottom: toRem(24);
+}
+.head-dot{
+    display: inline-block;
+    background-color: $gray2;
+    border-radius: 100%;
+    width: toRem(12);
+    height: toRem(12);
+}
+
+.exp-dot{
+    display: inline-block;
+    background-color: $gray3;
+    border-radius: 100%;
+    width: toRem(8);
+    height: toRem(8);
+}

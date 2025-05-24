@@ -1,0 +1,56 @@
+$font-family-mono: "Roboto Mono", monospace;
+
+
+// Brand Colors
+$primary:           #CDE4FE;
+$primary-light:     #6E8295;
+$text-color:        #3C2C2C;
+
+
+// Black Colors
+$black:             #000000;
+$white:             #FFFFFF;
+$body-bg-color:     #0c0e13;
+$gray1:             #F2F2F2;
+$gray2:             #E7E7E7;
+$gray3:             #A7A4A4;
+$gray4:             #9D9D9D;
+$gray5:             #131519;
+$gray6:             #202227;
+
+
+
+
+// Viewports
+$mobile-start:                        320px;
+$mobile-end-480:                      480px;
+$mobile-end:                          767px;
+$tablet-portrait-start:               768px;
+$tablet-landscape:                    991px;
+$tablet-portrait-end:                 1023px;
+$tablet-landscape-start:              1024px;
+$tablet-landscape-end:                1280px;
+$desktop-start:                       1281px;
+$desktop-large:                       1400px;
+
+//Font-weight
+$font-weight-light:                   300;
+$font-weight-regular:                 400;
+$font-weight-medium:                  500;
+$font-weight-bold:                    600;
+
+
+
+// metrics
+$x-small:            0.5rem;
+$small:              1rem;
+$medium:             1.5rem;
+$large:              2rem;
+$x-large:            3rem;
+$brr-small:          toRem(2);
+$brr-normal:         toRem(6);
+
+
+//box-shadows
+$box-shadow-regular:                  0px 0px 8px 0px rgba(32, 100, 168, 0.10);
+$box-shadow:                          0px 4px 20px 0px rgba(0, 0, 0, 0.10);

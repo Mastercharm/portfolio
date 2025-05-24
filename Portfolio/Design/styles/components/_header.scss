@@ -1,0 +1,78 @@
+    .top-line {
+        background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 26.576576576576578%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 50%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 76.12612612612612%, rgba(32, 34, 39, 0) 100%);
+        opacity: 0.5;
+        height: 1px;
+    }
+
+    .bottom-line {
+        background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) /* {"name":"Border Color"} */ 26.576576576576578%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) /* {"name":"Border Color"} */ 50%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) /* {"name":"Border Color"} */ 76.12612612612612%, rgba(32, 34, 39, 0) 100%);
+        opacity: 1;
+        height: 1px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: toRem(16) 0;
+            @include responsive(phone-end-480) {
+                flex-direction: column;
+                gap: toRem(16);
+                align-items: flex-start;
+            }
+
+        .logo {
+            text-decoration: none;
+            color: $gray3;
+            display: flex;
+            gap: toRem(16);
+            align-items: center;
+
+            &-content {}
+
+            &-title {
+                font-size: toRem(18);
+                color: $gray2;
+            }
+
+            &-tag {
+                font-size: toRem(14);
+                display: flex;
+                align-items: center;
+                gap: toRem(8);
+                .green-dot{
+                    width: toRem(8);
+                    height: toRem(8);
+                    border-radius: 100%;
+                    background-color: green;
+                    display: inline-block;
+                }
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                align-items: center;
+                gap: toRem(48);
+
+                li {
+                    list-style: none;
+                    .nav-item{
+                        text-decoration: none;
+                        display: flex;
+                        flex-direction: column;
+                        &:hover{
+                            img{
+                                filter: brightness(1) saturate(100%) sepia(20%) hue-rotate(180deg) brightness(1.2);
+                            }
+                        }
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }

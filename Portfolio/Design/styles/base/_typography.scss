@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0;
+}
+h1 {
+    font-size: toRem(48);
+}
+h2 {
+    font-size: toRem(40);
+}
+h3 {
+    font-size: toRem(32);
+}
+h4 {
+    font-size: toRem(24);
+}
+h5 {
+    font-size: toRem(20);
+}
+h6 {
+    font-size: toRem(18);
+}
