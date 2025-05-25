@@ -81,7 +81,7 @@ body {
         gap: toRem(32);
         grid-template-columns: 300px 2fr;
 
-        @include responsive(phone) {
+        @include responsive(tab-port-start) {
             flex-direction: column;
             gap: toRem(48);
             display: flex;
@@ -182,7 +182,7 @@ body {
         grid-template-columns: 1fr 1fr;
         gap: toRem(32);
 
-        @include responsive(phone) {
+        @include responsive(tab-port-start) {
             display: flex;
             flex-direction: column;
             gap: toRem(16);
@@ -222,7 +222,7 @@ body {
         grid-template-columns: 1fr 5fr;
         gap: toRem(32);
 
-        @include responsive(phone) {
+        @include responsive(tab-port-start) {
             grid-template-columns: 1fr;
             width: 100%;
         }
@@ -232,7 +232,7 @@ body {
             gap: toRem(32);
             flex-direction: column;
 
-            @include responsive(phone) {
+            @include responsive(tab-port-start) {
                 flex-direction: row;
                 gap: toRem(16);
                 flex-wrap: wrap;

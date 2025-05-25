@@ -214,7 +214,7 @@ body {
   gap: 2rem;
   grid-template-columns: 300px 2fr;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-me .about-card {
     flex-direction: column;
     gap: 3rem;
@@ -282,7 +282,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-me .services {
     display: flex;
     flex-direction: column;
@@ -318,7 +318,7 @@ body {
   grid-template-columns: 1fr 5fr;
   gap: 2rem;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-me .about-more {
     grid-template-columns: 1fr;
     width: 100%;
@@ -329,7 +329,7 @@ body {
   gap: 2rem;
   flex-direction: column;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about-me .about-more .about-tab {
     flex-direction: row;
     gap: 1rem;
