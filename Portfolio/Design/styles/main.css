@@ -164,6 +164,11 @@ body {
   min-height: 100vh;
   padding: 2rem 0;
 }
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+}
 
 .container {
   width: 100%;
@@ -172,9 +177,6 @@ body {
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  position: relative;
-  background: linear-gradient(180deg, rgba(32, 34, 39, 0) 0%, rgba(157, 157, 157, 0.5) 26.57%, rgba(157, 157, 157, 0.5) 50%, rgba(157, 157, 157, 0.5) 76.12%, rgba(32, 34, 39, 0) 100%) left center/1px 100% no-repeat, linear-gradient(180deg, rgba(32, 34, 39, 0) 0%, rgba(157, 157, 157, 0.5) 26.57%, rgba(157, 157, 157, 0.5) 50%, rgba(157, 157, 157, 0.5) 76.12%, rgba(32, 34, 39, 0) 100%) right center/1px 100% no-repeat;
-  background-repeat: no-repeat;
 }
 @media screen and (max-width: 767px) {
   .container {
