@@ -183,10 +183,9 @@ body {
 .hero-content {
   color: #E7E7E7;
   padding: 3rem 0;
-}
-.hero-content .wish-tag,
-.hero-content .intro-tag {
-  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .hero-content .look-resume {
   display: inline-block;
