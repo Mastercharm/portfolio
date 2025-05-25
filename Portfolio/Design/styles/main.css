@@ -64,13 +64,13 @@ h6 {
 }
 
 .top-line {
-  background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, #9d9d9d) 26.5765765766%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, #9d9d9d) 50%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, #9d9d9d) 76.1261261261%, rgba(32, 34, 39, 0) 100%);
+  background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 26.5765765766%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 50%, var(--token-d6ba9b24-fd45-4740-bd98-249f28002dd5, rgb(157, 157, 157)) 76.1261261261%, rgba(32, 34, 39, 0) 100%);
   opacity: 0.5;
   height: 1px;
 }
 
 .bottom-line {
-  background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, #202227) 26.5765765766%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, #202227) 50%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, #202227) 76.1261261261%, rgba(32, 34, 39, 0) 100%);
+  background: linear-gradient(90deg, rgba(32, 34, 39, 0) 0%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) 26.5765765766%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) 50%, var(--token-7805e8a7-7c5e-4197-a811-3debe090c520, rgb(32, 34, 39)) 76.1261261261%, rgba(32, 34, 39, 0) 100%);
   opacity: 1;
   height: 1px;
 }
@@ -173,6 +173,12 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
 .hero-content {
   color: #E7E7E7;
@@ -266,10 +272,10 @@ body {
 }
 .about-me .about-desc {
   text-align: left;
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
 }
 .about-me .services {
   display: grid;
@@ -286,11 +292,16 @@ body {
 .about-me .services .services-card {
   display: flex;
   gap: 1rem;
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
   text-align: left;
+}
+@media screen and (max-width: 480px) {
+  .about-me .services .services-card {
+    flex-direction: column;
+  }
 }
 .about-me .services .services-card h2 {
   font-size: 1.25rem;
@@ -310,6 +321,7 @@ body {
 @media screen and (max-width: 767px) {
   .about-me .about-more {
     grid-template-columns: 1fr;
+    width: 100%;
   }
 }
 .about-me .about-more .about-tab {
@@ -325,10 +337,10 @@ body {
   }
 }
 .about-me .about-more .about-tab_item {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
   text-decoration: none;
   color: #A7A4A4;
   cursor: pointer;
@@ -338,10 +350,10 @@ body {
   color: #E7E7E7;
 }
 .about-me .about-more .details-grid {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
 }
 .about-me .about-more .details-grid h3 {
   font-size: 1.125rem;
@@ -410,10 +422,10 @@ body {
   font-size: 2rem;
 }
 .experience-section .experience-craft {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
   color: #E7E7E7;
 }
 .experience-section .experience-craft .exp-year {
@@ -448,10 +460,10 @@ body {
 }
 .contact-section .contact-media .contact-whatsapp,
 .contact-section .contact-media .contact-email {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
 }
 .contact-section .contact-media .contact-whatsapp a,
 .contact-section .contact-media .contact-email a {
@@ -491,10 +503,10 @@ body {
   }
 }
 .work-section .work-tab_item {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 0.5rem 1rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
   text-decoration: none;
   color: #A7A4A4;
   cursor: pointer;
@@ -517,10 +529,10 @@ body {
   }
 }
 .work-section .work-block .work-card {
-  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, #131519) 0%, rgba(19, 21, 25, 0.3) 100%);
+  background: linear-gradient(180deg, var(--token-a924df73-d0cb-485d-9ce6-aceda64e54b4, rgb(19, 21, 25)) 0%, rgba(19, 21, 25, 0.3) 100%);
   border-radius: 1rem;
   padding: 1.5rem;
-  border: 0.0625rem solid #202227;
+  border: 0.0625rem solid rgb(32, 34, 39);
   position: relative;
 }
 .work-section .work-block .work-card_pill {
