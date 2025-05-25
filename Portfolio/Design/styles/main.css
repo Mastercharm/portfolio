@@ -199,11 +199,10 @@ body {
   opacity: 1;
   font-weight: 600;
 }
-.hero-content .look-button {
+.hero-content .look-work {
   display: inline-block;
   text-decoration: none;
   border: 0.0625rem solid #0c0e13;
-  background-color: #CDE4FE;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   box-shadow: rgba(205, 228, 254, 0.5) 0px 0px 5px 0px;
@@ -215,6 +214,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .about-me {
