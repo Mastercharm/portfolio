@@ -63,6 +63,24 @@ body {
             opacity: 1;
             font-weight: $font-weight-bold;
         }
+         .look-button {
+            display: inline-block;
+            text-decoration: none;
+            border: toRem(1) solid $body-bg-color;
+            background-color: $primary;
+            padding: toRem(12) toRem(24);
+            border-radius: toRem(8);
+            box-shadow: rgba(205, 228, 254, 0.5) 0px 0px 5px 0px;
+            opacity: 1;
+            font-weight: $font-weight-bold;
+            color: $primary;
+        }
+
+        .hero-buttons{
+            display: flex;
+            align-items: center;
+            gap: toRem(16);
+        }
     }
 }
 
