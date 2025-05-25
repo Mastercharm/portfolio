@@ -182,7 +182,7 @@ body {
 
 .hero-content {
   color: #E7E7E7;
-  padding-bottom: 3rem;
+  padding: 3rem 0;
 }
 .hero-content .wish-tag,
 .hero-content .intro-tag {

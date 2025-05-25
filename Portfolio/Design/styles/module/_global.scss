@@ -45,7 +45,7 @@ body {
 
     &-content {
         color: $gray2;
-        padding-bottom: toRem(48);
+        padding: toRem(48) 0;
 
         .wish-tag,
         .intro-tag {
