@@ -151,23 +151,18 @@ footer .copy-right {
 }
 
 html {
-  font-size: 16px;
+  font-size: 1rem;
   scroll-behavior: smooth;
 }
 
 body {
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #0c0e13;
   min-height: 100vh;
   padding: 2rem 0;
-}
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 15px;
-  }
 }
 
 .container {
