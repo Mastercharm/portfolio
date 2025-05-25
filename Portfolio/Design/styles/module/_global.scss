@@ -33,6 +33,25 @@ body {
         padding-left: toRem(16);
         padding-right: toRem(16);
     }
+      position: relative;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(32, 34, 39, 0) 0%,
+      rgba(157, 157, 157, 0.5) 26.57%,
+      rgba(157, 157, 157, 0.5) 50%,
+      rgba(157, 157, 157, 0.5) 76.12%,
+      rgba(32, 34, 39, 0) 100%
+    ) left center / 1px 100% no-repeat,
+    linear-gradient(
+      180deg,
+      rgba(32, 34, 39, 0) 0%,
+      rgba(157, 157, 157, 0.5) 26.57%,
+      rgba(157, 157, 157, 0.5) 50%,
+      rgba(157, 157, 157, 0.5) 76.12%,
+      rgba(32, 34, 39, 0) 100%
+    ) right center / 1px 100% no-repeat;
+  background-repeat: no-repeat;
 }
 
 .header-section {
@@ -49,7 +68,7 @@ body {
 
         .wish-tag,
         .intro-tag {
-            margin: toRem(32) 0;
+            margin: toRem(16) 0;
         }
 
         .look-resume {
