@@ -219,7 +219,7 @@ body {
 
     .about-more {
         display: grid;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 11fr;
         gap: toRem(32);
 
         @include responsive(tab-port-start) {

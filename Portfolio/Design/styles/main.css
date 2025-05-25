@@ -157,7 +157,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #0c0e13;
@@ -315,7 +315,7 @@ body {
 }
 .about-me .about-more {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 11fr;
   gap: 2rem;
 }
 @media screen and (max-width: 768px) {
